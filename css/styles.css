@@ -495,7 +495,7 @@ transform: translateX(0)
 .form {
   display: flex;
   gap: 24px;
-
+  
 }
 
 .footer-field {
