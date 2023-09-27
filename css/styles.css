@@ -441,9 +441,10 @@ transform: translateX(0)
   align-items: baseline;
 } 
 
-.footer-content {
+ .footer-content {
   margin-right: 120px;
 }
+
 
 .footer-title-media {
   font-weight: 500;
@@ -483,6 +484,7 @@ transform: translateX(0)
   fill: #f4f4fd;
 }
 
+
 .footer-text {
   margin-bottom: 16px;
   font-weight: 500; 
@@ -495,7 +497,7 @@ transform: translateX(0)
 .form {
   display: flex;
   gap: 24px;
-  
+  justify-content: space-between;
 }
 
 .footer-field {
@@ -516,7 +518,7 @@ input::placeholder {
   color: #ffffff; 
 }
 
-.abc {
+.submit {
   min-width: 165px;
   height: 40px;
   display: flex; 
