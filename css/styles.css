@@ -652,14 +652,6 @@ input::placeholder {
     fill: #4D5AE5; /* Изменение цвета иконки при фокусе на .person-name */
 }
 
-.label-name {
-  font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: 14px; /* 116.667% */
-letter-spacing: 0.48px;
-}
 
 .comment {
   margin-bottom: 16px;
