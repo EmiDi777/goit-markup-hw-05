@@ -607,7 +607,7 @@ input::placeholder {
   font-family: Roboto;
 }
 
-.form-name {
+.form-name .form-tel .form-email {
   margin-bottom: 8px;
 }
 
