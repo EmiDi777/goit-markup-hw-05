@@ -706,7 +706,7 @@ input::placeholder {
   fill: transparent; 
 }
 
-.accept-field:checked .accept-text-q {
+.accept-field:checked + .accept-text .accept-text-q {
   background-color: #404bbf; 
   border: none;
   fill: #F4F4FD;
