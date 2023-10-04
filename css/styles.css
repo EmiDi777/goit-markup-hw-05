@@ -682,10 +682,6 @@ input::placeholder {
   margin-bottom: 24px;
 }
 
-.accept-field {
-  visually-hidden
-}
-
 .accept-text {
   font-size: 12px; 
   line-height: 1.17; 
@@ -710,7 +706,7 @@ input::placeholder {
   fill: transparent; 
 }
 
-.accept-field:checked .accept-text-q {
+.visually-hidden:checked .accept-text-q {
   background-color: #404bbf; 
   border: none;
   fill: #F4F4FD;
@@ -745,4 +741,3 @@ text-decoration-line: underline;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-
