@@ -690,7 +690,6 @@ input::placeholder {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px; /* 116.667% */
   letter-spacing: 0.48px;
 }
 
