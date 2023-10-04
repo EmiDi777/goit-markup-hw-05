@@ -706,7 +706,7 @@ input::placeholder {
   fill: transparent; 
 }
 
-.visually-hidden:checked .accept-text-q {
+.accept-field:checked .accept-text-q {
   background-color: #404bbf; 
   border: none;
   fill: #F4F4FD;
@@ -715,12 +715,12 @@ input::placeholder {
 .privacy {
   color: #4d5ae5;
   font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: 0.48px;
-text-decoration-line: underline;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.48px;
+  text-decoration-line: underline;
 }
 
 
