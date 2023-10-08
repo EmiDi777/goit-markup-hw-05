@@ -114,12 +114,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-studio);
 text-decoration: none;
-}
+} 
 
 .nav-link {
 color: var(--color-studio);
 text-decoration: none;
-padding: 24px 0;
 position: relative;
 transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -127,11 +126,21 @@ transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .nav-link-studio {
   color: #404bbf;
+  position: relative;
+  padding: 24px 0;
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-studio);
+text-decoration: none;
 }
 
 .nav-link-studio::after {
   content:"";
-  /* position: absolute; */
+  position: absolute;
   left: 0;
   bottom: -1px;
   height: 4px;
@@ -271,6 +280,24 @@ transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-align: center;
   }
 
+  .tools-q {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-studio);
+    margin-bottom: 8px;
+    text-align: start;
+  }
+
+  .our-tools-q {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: start;
+  }
+
   .tools-description {
     font-size: 16px;
     line-height: 1.5;
@@ -351,6 +378,15 @@ transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 32px 0;
   }
 
+.our-tools-v {
+  font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+  margin-bottom: 8px;
+}
+
   .person-img {
     background-color: #FFFFFF;
   }
@@ -420,7 +456,6 @@ transform: translateX(0)
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  
 }
 
   /* footer */
@@ -468,6 +503,10 @@ transform: translateX(0)
 .footer-list {
   width: 40px; 
   height: 40px;
+}
+
+.footer-social-link{
+margin-right: 80px;
 }
 
 .footer-link {
@@ -553,6 +592,15 @@ input::placeholder {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  opacity: 0;
+visibility: hidden;
+pointer-events: none;
+}
+
+.for-modal-is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .modal {
